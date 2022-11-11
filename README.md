@@ -28,6 +28,9 @@ https://github.com/deadseal001/E-commerce_Backend
 
 ## Screenshot
 
+<img width="1421" alt="Screen Shot 2022-11-10 at 11 01 51 PM" src="https://user-images.githubusercontent.com/110753777/201272216-4ab0d0c6-7ef9-4486-b076-c364ab21e702.png">
+
+
 ## Demo
 
 https://watch.screencastify.com/v/hFq26K1hpQvLRqUCg2hx
