@@ -12,9 +12,9 @@ This backend platform provide database storage and management for a commercial w
 
 - JavaScript
 - Node.js
+  express
   inquirer
   mysql2
-  console.table
   dotenv
   sequelize
 
