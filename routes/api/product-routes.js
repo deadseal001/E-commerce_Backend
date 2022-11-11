@@ -77,6 +77,7 @@ router.post("/", (req, res) => {
         });
         return ProductTag.bulkCreate(productTagIdArr);
       }
+
       // if no product tags, just respond
       res.status(200).json(product);
     })
@@ -88,11 +89,12 @@ router.post("/", (req, res) => {
 });
 
 // update product
+
 router.put("/:id", (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
-      id: req.body.id,
+      id: req.params.id,
     },
   })
     .then((product) => {
