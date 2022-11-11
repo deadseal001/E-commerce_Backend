@@ -35,7 +35,13 @@ router.get("/:id", (req, res) => {
       },
     ],
   })
-    .then((dbdata) => res.json(dbdata))
+    .then((dbData) => {
+      if (!dbData) {
+        res.status(404).json({ message: "No tag can be found with this id" });
+        return;
+      }
+      res.json(dbData);
+    })
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
